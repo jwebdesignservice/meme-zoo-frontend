@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import type { Animal, WorldState } from '../store/zooStore';
+import { type Animal, type WorldState } from '../store/zooStore';
 
 const TILE_SIZE = 32;
 const BIOME_COLORS: Record<string, number> = {

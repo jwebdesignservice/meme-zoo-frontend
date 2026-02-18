@@ -1,8 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Phaser from 'phaser';
 import { ZooScene } from './ZooScene';
-import { useZooStore } from '../store/zooStore';
-import type { Animal } from '../store/zooStore';
+import { useZooStore, type Animal } from '../store/zooStore';
 
 interface GameProps {
   onAnimalClick: (animal: Animal) => void;

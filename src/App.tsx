@@ -2,8 +2,7 @@ import { useEffect, useCallback } from 'react';
 import { Game } from './game/Game';
 import { Header } from './components/Header';
 import { StatCard } from './components/StatCard';
-import { useZooStore } from './store/zooStore';
-import type { Animal } from './store/zooStore';
+import { useZooStore, type Animal } from './store/zooStore';
 import './App.css';
 
 function App() {
