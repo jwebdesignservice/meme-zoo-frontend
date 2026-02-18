@@ -1,4 +1,4 @@
-import { Animal } from '../store/zooStore';
+import type { Animal } from '../store/zooStore';
 import './StatCard.css';
 
 interface StatCardProps {
